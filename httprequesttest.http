@@ -1,0 +1,20 @@
+PUT http://localhost:3000/books/add
+Content-Type: application/json
+
+{"id": 2, "name": "book3", "price": 243}
+
+###
+
+POST http://localhost:80/api/item
+Content-Type: application/json
+
+{"name"}
+
+###
+
+DELETE http://localhost:3000/books/del/2
+Content-Type: application/json
+
+{}
+
+###
